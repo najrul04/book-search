@@ -1,0 +1,82 @@
+/*--------------------------- 
+        Common_CSS 
+-----------------------------*/
+
+h1{
+    text-align: center;
+    color:#8a2be2 ;
+    margin-top: 50px;
+}
+body{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 80px;
+
+}
+
+/*--------------------------- 
+        Search_Div 
+-----------------------------*/
+
+.search_div{
+
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: 50px auto;
+    
+}
+
+#input{
+    
+    width: 800px;
+    height: 50px;
+    font-size: 20px;
+
+}
+
+    
+#button{
+    height: 80px;
+    width: 50px;
+}
+
+    
+#books_div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 0 50px;
+}
+
+#book_result_found{
+
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #9700fc;
+}
+
+.innerDiv{
+
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #8a2be2;
+    padding: 0 15px;
+
+}
+
+.search_btn{
+
+    padding: 15.5px 30px;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+.search_btn:hover{
+
+    background-color: #8a2be2;
+    transition: 2s;
+    color: #ffffff;
+
+}

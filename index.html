@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Archive API</title>
+
+
+    <!-------------------------- CSS_stylesheet_Starts ----------------------------------->
+    
+       <link rel="stylesheet" href="css/style.css">
+
+    <!-------------------------- CSS_stylesheet_Starts ----------------------------------->
+
+
+</head>
+
+<body>
+    <header>
+
+        <h1>Find Your Favorite Book</h1>
+
+    </header>
+    <main>
+                    <!------------------------- Search_Section_Starts --------------------------->
+        <section>
+
+            <div class="search_div"><input type="text" name="" id="input" placeholder="Search The Book You Wish For">
+                <button onclick="searchBooks()" id="button_search" class="search_btn">Search</button>
+            </div>
+
+        </section>
+                    <!------------------------- Search_Section_Ends --------------------------->     
+                    
+                    <!-- ----------------------------------------------------------------------- -->
+
+                    <!------------------------- Book_Result_Section_Starts --------------------------->
+
+        <section>
+
+            <div id="book_result_found"></div>
+
+        </section>
+
+                    <!------------------------- Book_Result_Section_Ends --------------------------->
+
+                    <!-- ----------------------------------------------------------------------- -->
+
+                    <!------------------------- Book_Div_Section_Starts --------------------------->
+
+        <section>
+
+            <div id="books_div"></div>
+
+        </section>
+
+                    <!------------------------- Book_Div_Section_Ends --------------------------->
+    </main>
+
+
+                    <!-------------------------- Archieve_Js_Starts ---------------------------------->
+
+    <script src="js/script.js"></script>
+
+                    <!-------------------------- Archieve_Js_Ends ---------------------------------->
+</body>
+
+</html>
